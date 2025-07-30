@@ -1,0 +1,14 @@
+title: andrew zhou
+author: andrew zhou
+email: qxf5zp@virginia.edu
+description: >-
+  personal website.
+
+# Social links for the footer
+github_username: dahroo
+linkedin_username: drewzhou
+substack_url: [https://yourname.substack.com]
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
