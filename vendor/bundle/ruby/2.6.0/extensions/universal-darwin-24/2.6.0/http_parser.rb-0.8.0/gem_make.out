@@ -1,5 +1,5 @@
 current directory: /Users/andrew/Desktop/portfolio/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20250730-50068-p5wo5v.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20250730-55574-1a0b9k.rb extconf.rb
 creating Makefile
 
 current directory: /Users/andrew/Desktop/portfolio/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
@@ -465,4 +465,4 @@ ld: warning: search path '/AppleInternal/Library/BuildRoots/1c8f7852-1ca9-11f0-b
 
 current directory: /Users/andrew/Desktop/portfolio/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20250730-50068-80ra0j
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20250730-55574-1rc4bvx
