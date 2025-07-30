@@ -1,17 +1,14 @@
 ---
-layout: default
+layout: page
 title: Blog
 ---
 
-# Blog
-
-Here are my latest thoughts and writings:
 
 <ul class="post-list">
 {% for post in site.posts %}
   <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <span class="post-meta"> - {{ post.date | date: "%d %B %Y" }}</span>
+    <a href="{{ post.url | relative_url }}" class="post-title-link">{{ post.title }}</a>
+    <span class="post-meta">{{ post.date | date: "%d %B %Y" }}</span>
   </li>
 {% endfor %}
 </ul>

@@ -1,4 +1,4 @@
-title: andrew zhou
+title: azhou
 author: andrew zhou
 email: qxf5zp@virginia.edu
 description: >-
@@ -7,7 +7,7 @@ description: >-
 # Social links for the footer
 github_username: dahroo
 linkedin_username: drewzhou
-substack_url: [https://yourname.substack.com]
+substack_url: https://yourname.substack.com
 
 # Build settings
 markdown: kramdown
