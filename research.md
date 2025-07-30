@@ -8,7 +8,7 @@ title: Publications
   <li>
     <div class="research-title-row">
       <a href="{{ item.url }}" class="research-title-link" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
-      <span class="research-meta">{{ item.date | date: "%d %B %Y" }}</span>
+      <span class="research-meta">{{ item.date | date: "%B %Y" }}</span>
     </div>
     <div class="research-journal">{{ item.journal }}</div>
   </li>

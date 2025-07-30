@@ -48,6 +48,17 @@ p {
   margin-bottom: 1rem;
 }
 
+/* General Lists */
+ul, ol {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
 /* Page content spacing */
 .page-content {
   margin-top: 3rem;
@@ -83,17 +94,27 @@ header {
   font-size: 1.5em;
   font-weight: bold;
   text-decoration: none;
+  color: #000000;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   gap: 2rem;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+nav li {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: inherit !important;
 }
 
 nav a {
   text-decoration: none;
   font-weight: bold;
+  color: #000000;
 }
 
 nav a:hover {
@@ -123,6 +144,7 @@ footer p {
 .social-icons a {
   text-decoration: none;
   display: inline-block;
+  color: #000000;
 }
 
 .social-icons svg {

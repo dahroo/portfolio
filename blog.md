@@ -8,7 +8,7 @@ title: Blog
 {% for post in site.posts %}
   <li>
     <a href="{{ post.url | relative_url }}" class="post-title-link">{{ post.title }}</a>
-    <span class="post-meta">{{ post.date | date: "%d %B %Y" }}</span>
+    <span class="post-meta">{{ post.date | date: "%B %Y" }}</span>
   </li>
 {% endfor %}
 </ul>
